@@ -1,0 +1,126 @@
+/* .new {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 100%;
+  /* position: relative; */
+/* padding: 0px;
+  -webkit-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.3); */
+/* } */
+*/ .last {
+  background: rgb(249, 251, 252);
+}
+
+.product {
+  float: left;
+  width: 23%;
+  border-radius: 2%;
+  margin: 1%;
+  background-color: rgb(128, 191, 216);
+}
+
+.product:hover {
+  box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.image-box {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 2% 2% 0 0;
+  border-color: rgb(128, 191, 216);
+}
+
+.pdf-file {
+  background-position: center center;
+  border-color: rgb(128, 191, 216);
+}
+
+.images {
+  height: 15em;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 2% 2% 0 0;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+.images:hover {
+  transform: scale(1.2);
+  overflow: hidden;
+  border-radius: 2%;
+}
+
+.text-box {
+  width: 100%;
+  float: left;
+  border: 0.01em solid #dddbdb;
+  border-radius: 0 0 2% 2%;
+  padding: 1em;
+}
+
+.item,
+.price {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0.2em auto;
+  clear: left;
+  width: 100%;
+  text-align: center;
+}
+
+.price {
+  color: Grey;
+}
+
+.description,
+label,
+.addToCart {
+  float: left;
+  clear: left;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  text-align: center;
+  margin: 0.2em auto;
+}
+
+input:focus {
+  outline-color: #fdf;
+}
+
+label {
+  width: 60%;
+}
+
+.text-box input {
+  width: 15%;
+  clear: none;
+}
+
+.text-box button {
+  margin-top: 1em;
+}
+
+.addToCart {
+  padding: 2%;
+  background-color: rgb(245, 237, 226);
+  border: none;
+  border-radius: 2%;
+}
+
+#image-1 {
+  background-color: rgb(245, 237, 226);
+}
